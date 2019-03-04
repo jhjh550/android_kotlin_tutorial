@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    <CheckBox
+            android:id="@+id/myCheckBox"
+            android:text="myCheckBox"
+            android:layout_below="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <RadioGroup
+            android:id="@+id/myRadioGroup"
+            android:layout_below="@id/myCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:id="@+id/myRadio1"
+                android:text="radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <RadioButton
+                android:id="@+id/myRadio2"
+                android:text="radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <RadioButton
+                android:id="@+id/myRadio3"
+                android:text="radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </RadioGroup>
+    <EditText
+            android:inputType="textEmailAddress"
+            android:hint="input here"
+            android:id="@+id/myEditText"
+            android:layout_below="@id/myRadioGroup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    <Button
+            android:id="@+id/btnOK"
+            android:layout_alignBottom="@id/myEditText"
+            android:layout_toRightOf="@id/myEditText"
+            android:text="OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
+
+
+

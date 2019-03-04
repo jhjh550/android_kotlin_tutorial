@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="example.com.kotlin_android_api_tutorial">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:usesCleartextTraffic="true"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".T22_RuntimePermission.PermissionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".T21_fragment2.FragmentExample2Activity">
+        </activity>
+        <activity android:name=".T20_Fragment.FragmentExampleActivity">
+        </activity>
+        <activity android:name=".T19_Notification2.DirectReplyActivity">
+        </activity>
+        <activity android:name=".T18_Notification.ResultActivity">
+        </activity>
+        <activity android:name=".T18_Notification.NotificationActivity">
+        </activity>
+
+        <service
+                android:name=".T17_Service.MyRemoteService"
+                android:enabled="true"
+                android:exported="true"
+                android:process=":my_process">
+        </service>
+        <service
+                android:name=".T17_Service.MyBoundService"
+                android:enabled="true"
+                android:exported="true">
+        </service>
+        <service
+                android:name=".T17_Service.MyService"
+                android:enabled="true"
+                android:exported="true">
+        </service>
+
+        <activity android:name=".T17_Service.MyServiceActivity">
+        </activity>
+        <activity android:name=".T16_BR.BRActivity">
+        </activity>
+        <activity android:name=".T15_RecyclerView.RecyclerViewActivity">
+        </activity>
+        <activity android:name=".T14_xml.XmlActivity">
+        </activity>
+        <activity android:name=".T13_SQLite.SQLiteActivity">
+        </activity>
+        <activity android:name=".T12_Preference.PrefActivity">
+        </activity>
+        <activity android:name=".T11_AsyncTask.AsyncTaskActivity">
+        </activity>
+        <activity android:name=".T10_Thread.ThreadActivity">
+        </activity>
+        <activity android:name=".T09_WebView.WebViewActivity"/>
+        <activity android:name=".T08_Dialog.T08_DialogActivity"/>
+        <activity android:name=".T07_MediaPlayer.MediaPlayerActivity"/>
+        <activity android:name=".T06_CustomListView.CustomListViewActivity"/>
+        <activity android:name=".T05_ListView.ListViewActivity"/>
+        <activity android:name=".T04_Activity.NewActivity"/>
+        <activity android:name=".T04_Activity.ActivityActivity"/>
+        <activity android:name=".T03_Widget.WidgetActivity"/>
+        <activity android:name=".T02_Menu.MenuActivity"/>
+    </application>
+
+</manifest>
