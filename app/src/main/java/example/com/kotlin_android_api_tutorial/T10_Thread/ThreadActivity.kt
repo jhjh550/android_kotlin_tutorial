@@ -25,19 +25,32 @@ class ThreadActivity : AppCompatActivity() {
         setContentView(R.layout.activity_thread)
 
         btnThread.setOnClickListener {
-            val th = Thread(){
-                kotlin.run {
-                    for(i in 0..100){
-                        Log.d("thread", "count $i")
-                        val msg = handler.obtainMessage()
-                        msg.what = MY_COUNT
-                        msg.arg1 = i
-                        handler.sendMessage(msg)
-                        sleep(100)
-                    }
-                }
+//            val th = Thread(){
+//                kotlin.run {
+//                  threadCount()
+//                }
+//            }
+
+//            val th = Thread(Runnable {
+//                threadCount()
+//            })
+
+            val th = Thread {
+                threadCount()
             }
             th.start()
+        }
+    }
+
+    private fun threadCount(){
+        for (i in 0..100) {
+            Log.d("thread", "count $i")
+            val msg = handler.obtainMessage()
+            msg.what = MY_COUNT
+            msg.arg1 = i
+            handler.sendMessage(msg)
+            sleep(100)
+
         }
     }
 }

@@ -16,11 +16,6 @@
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".T22_RuntimePermission.PermissionActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".T21_fragment2.FragmentExample2Activity">
         </activity>
@@ -65,6 +60,11 @@
         <activity android:name=".T11_AsyncTask.AsyncTaskActivity">
         </activity>
         <activity android:name=".T10_Thread.ThreadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity android:name=".T09_WebView.WebViewActivity"/>
         <activity android:name=".T08_Dialog.T08_DialogActivity"/>
