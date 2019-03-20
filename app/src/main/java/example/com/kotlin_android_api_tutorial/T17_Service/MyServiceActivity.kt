@@ -49,7 +49,7 @@ class MyServiceActivity : AppCompatActivity() {
 //        val intent = Intent(this, MyBoundService::class.java)
 //        bindService(intent, myConnection, Context.BIND_AUTO_CREATE)
 
-        val intent = Intent(getApplicationContext(), MyRemoteService::class.java)
+        val intent = Intent(applicationContext, MyRemoteService::class.java)
         bindService(intent, myConnection, Context.BIND_AUTO_CREATE)
 
         btnStartService.setOnClickListener {
