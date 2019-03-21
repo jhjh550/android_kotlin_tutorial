@@ -10,6 +10,6 @@
             android:icon="@drawable/ic_delete"
             app:showAsAction="never"
             android:title="add"
-            android:id="@+id/menu_test2"/>
+            android:id="@+id/menu_add"/>
 
 </menu>

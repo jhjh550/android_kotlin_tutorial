@@ -2,6 +2,7 @@ package example.com.kotlin_android_api_tutorial.T24_SoundPool_MVVM
 
 import android.databinding.DataBindingUtil
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import example.com.kotlin_android_api_tutorial.R
@@ -35,8 +36,9 @@ class SoundMVVMAdapter(val beatBox: BeatBox): RecyclerView.Adapter<SoundMVVMAdap
         }
 
         fun bind(sound: Sound){
+            Log.d("bind", sound.name)
             binding.viewModel?.sound = sound
-//            binding.executePendingBindings()
+            binding.executePendingBindings()
         }
     }
 }

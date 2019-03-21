@@ -6,6 +6,7 @@ import example.com.kotlin_android_api_tutorial.T23_SoundPool_MVC.BeatBox
 import example.com.kotlin_android_api_tutorial.T23_SoundPool_MVC.Sound
 
 class SoundViewModel(private val beatBox: BeatBox): BaseObservable() {
+
     var sound: Sound? = null
         set(value){
             field = value
@@ -14,7 +15,8 @@ class SoundViewModel(private val beatBox: BeatBox): BaseObservable() {
 
 
     val title: String?
-        @Bindable get(){
+        @Bindable
+        get(){
             return sound?.name
         }
 

@@ -43,4 +43,7 @@ class BeatBox(private val assetManager: AssetManager) {
         soundPool.release()
     }
 
+    fun changeFirstSoundName(){
+        sounds.first().name = "temp123"
+    }
 }
