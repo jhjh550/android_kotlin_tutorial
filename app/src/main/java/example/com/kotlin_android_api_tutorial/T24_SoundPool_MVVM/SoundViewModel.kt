@@ -1,4 +1,4 @@
-package example.com.kotlin_android_api_tutorial
+package example.com.kotlin_android_api_tutorial.T24_SoundPool_MVVM
 
 import android.databinding.BaseObservable
 import android.databinding.Bindable
