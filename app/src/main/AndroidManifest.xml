@@ -16,11 +16,6 @@
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".T26_retrofit.RetrofitActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".T25_Json.JsonActivity">
         </activity>
@@ -63,6 +58,11 @@
         <activity android:name=".T16_BR.BRActivity">
         </activity>
         <activity android:name=".T15_RecyclerView.RecyclerViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity android:name=".T14_xml.XmlActivity">
         </activity>

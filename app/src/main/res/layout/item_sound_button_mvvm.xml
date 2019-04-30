@@ -3,7 +3,7 @@
         xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable name="viewModel"
-                  type="example.com.kotlin_android_api_tutorial.T24_SoundPool_MVVM.SoundViewModel"/>
+                  type="example.com.kotlin_android_api_tutorial.SoundViewModel"/>
     </data>
     <Button
             tools:text="Sound name"
