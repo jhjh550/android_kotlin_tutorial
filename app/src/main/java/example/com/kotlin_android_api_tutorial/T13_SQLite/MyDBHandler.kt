@@ -7,7 +7,7 @@ class MyDBHandler {
     private lateinit var helper : MyOpenHelper
 
     constructor(context: Context) {
-        helper = MyOpenHelper(context, null, null, 1)
+        helper = MyOpenHelper(context, null, 1)
     }
 
     fun insert(name:String, age:Int, address:String){

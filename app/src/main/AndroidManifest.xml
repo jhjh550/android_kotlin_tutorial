@@ -58,15 +58,15 @@
         <activity android:name=".T16_BR.BRActivity">
         </activity>
         <activity android:name=".T15_RecyclerView.RecyclerViewActivity">
+        </activity>
+        <activity android:name=".T14_xml.XmlActivity">
+        </activity>
+        <activity android:name=".T13_SQLite.SQLiteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".T14_xml.XmlActivity">
-        </activity>
-        <activity android:name=".T13_SQLite.SQLiteActivity">
         </activity>
         <activity android:name=".T12_Preference.PrefActivity">
         </activity>

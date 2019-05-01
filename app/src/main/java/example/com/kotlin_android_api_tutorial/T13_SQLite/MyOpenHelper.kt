@@ -4,7 +4,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class MyOpenHelper(context: Context, name: String?,
+class MyOpenHelper(context: Context,
                    factory: SQLiteDatabase.CursorFactory?, version: Int)
                         : SQLiteOpenHelper(context, DATABASE_NAME, factory, DATABASE_VERSION) {
 
