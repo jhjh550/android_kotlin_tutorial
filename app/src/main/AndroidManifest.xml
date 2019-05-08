@@ -15,6 +15,13 @@
             android:theme="@style/AppTheme"
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".T27_Dagger2.Dagger2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".T26_retrofit.RetrofitActivity">
         </activity>
         <activity android:name=".T25_Json.JsonActivity">
@@ -62,11 +69,6 @@
         <activity android:name=".T14_xml.XmlActivity">
         </activity>
         <activity android:name=".T13_SQLite.SQLiteActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".T12_Preference.PrefActivity">
         </activity>
