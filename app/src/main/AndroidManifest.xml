@@ -15,12 +15,16 @@
             android:theme="@style/AppTheme"
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".T27_Dagger2.Dagger2Activity">
+        <activity android:name=".T29_dagge2_3.DaggerTest3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".T28_dagger2_2.DaggerTest2Activity">
+        </activity>
+        <activity android:name=".T27_Dagger2.Dagger2Activity">
         </activity>
         <activity android:name=".T26_retrofit.RetrofitActivity">
         </activity>
