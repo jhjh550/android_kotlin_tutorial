@@ -16,11 +16,6 @@
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".T29_dagge2_3.DaggerTest3Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".T28_dagger2_2.DaggerTest2Activity">
         </activity>
@@ -69,6 +64,11 @@
         <activity android:name=".T16_BR.BRActivity">
         </activity>
         <activity android:name=".T15_RecyclerView.RecyclerViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity android:name=".T14_xml.XmlActivity">
         </activity>
