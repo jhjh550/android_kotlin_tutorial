@@ -28,11 +28,13 @@ class VideoViewActivity : AppCompatActivity() {
     }
 
 //    override fun onWindowFocusChanged(hasFocus: Boolean) {
-////        super.onWindowFocusChanged(hasFocus)
+//        super.onWindowFocusChanged(hasFocus)
 //        if(hasFocus){
 //            hideSystemBar()
 //        }
 //    }
+
+    //https://developer.android.com/training/system-ui/immersive
 
     fun hideSystemBar() {
         window.decorView.systemUiVisibility =
