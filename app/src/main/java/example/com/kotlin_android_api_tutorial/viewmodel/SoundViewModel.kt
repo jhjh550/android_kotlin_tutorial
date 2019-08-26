@@ -1,4 +1,4 @@
-package example.com.kotlin_android_api_tutorial
+package example.com.kotlin_android_api_tutorial.viewmodel
 
 import android.databinding.BaseObservable
 import android.databinding.Bindable

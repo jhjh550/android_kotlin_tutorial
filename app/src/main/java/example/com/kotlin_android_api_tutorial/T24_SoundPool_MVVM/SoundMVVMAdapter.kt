@@ -6,10 +6,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import example.com.kotlin_android_api_tutorial.R
-import example.com.kotlin_android_api_tutorial.SoundViewModel
 import example.com.kotlin_android_api_tutorial.T23_SoundPool_MVC.BeatBox
 import example.com.kotlin_android_api_tutorial.T23_SoundPool_MVC.Sound
 import example.com.kotlin_android_api_tutorial.databinding.ItemSoundButtonMvvmBinding
+import example.com.kotlin_android_api_tutorial.viewmodel.SoundViewModel
+
 
 class SoundMVVMAdapter(val beatBox: BeatBox): RecyclerView.Adapter<SoundMVVMAdapter.SoundMVVMHolder>(){
 

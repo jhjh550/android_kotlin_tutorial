@@ -21,8 +21,6 @@ class SoundPoolMVVMActivity : AppCompatActivity() {
         beatBox = BeatBox(assets)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_sound_pool_mvvm)
         binding.recyclerViewSoundMvvm.layoutManager = GridLayoutManager(this, 3)
-        binding.recyclerViewSoundMvvm.adapter =
-            SoundMVVMAdapter(beatBox)
-
+        binding.recyclerViewSoundMvvm.adapter = SoundMVVMAdapter(beatBox)
     }
 }
